@@ -17,4 +17,6 @@ function BoardMember(name, homeState, training){
   this.sayHi = function(){
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}`;
   }
-}
+};
+
+let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
